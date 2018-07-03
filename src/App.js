@@ -5,6 +5,7 @@ import Body from './Body.js'
 import SideBar from './SideBar.js'
 import BottomBar from './BottomBar.js'
 import Footer from './Footer'
+
 class App extends Component {
   render() {
     return (
