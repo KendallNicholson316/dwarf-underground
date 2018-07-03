@@ -48,10 +48,10 @@ class BottomBar extends Component{
         return(
 
 			<div className="small-12 columns other-articles">
-            <h2>From around the Realm</h2>
-			
-			{this.state.clickBaits.map(currentBait =>  <ClickBait bait={currentBait}/>)}			
-			
+            	<h2>From around the Realm</h2>
+				<div>	
+					{this.state.clickBaits.map(currentBait =>  <ClickBait bait={currentBait}/>)}			
+				</div>
             </div>
         )
     }

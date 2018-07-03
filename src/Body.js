@@ -3,6 +3,7 @@ import MainPassage from './MainPassage.js'
 import Avatar from './Avatar.js'
 import PassageLinks from './PassageLinks.js'
 
+
 class Body extends Component{
     render(){
         return(
@@ -11,6 +12,7 @@ class Body extends Component{
             <Avatar />
 			<MainPassage />
 			<PassageLinks />
+
           </div>
 		)
 	}
